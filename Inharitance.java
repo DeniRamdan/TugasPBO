@@ -31,13 +31,13 @@ public class Inharitance
         if (nilai[i]<=100 && nilai [i]>=80) {
                 status[i]="Grade A (Lulus)";
 
-            } else if(nilai[i] <79 && nilai[i] >=70){
+            } else if(nilai[i] <=79 && nilai[i] >70){
                 status[i]="Grade B (Lulus)";
 
-            } else if (nilai[i] <69 && nilai[i] >=60 ){
+            } else if (nilai[i] <=69 && nilai[i] >60 ){
                 status[i]="Grade C (Lulus)";
 
-            }else if (nilai[i] <59 && nilai[i] >=50 ){
+            }else if (nilai[i] <=59 && nilai[i] >50 ){
                 status[i]="Grade D (Tidak Lulus)";
 
             }else if (nilai[i] <50 ){
